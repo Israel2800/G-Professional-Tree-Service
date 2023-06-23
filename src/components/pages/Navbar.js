@@ -6,7 +6,7 @@ export default function Navbar({ handlePageChange }) {
     return (
         <header className="bg-gray-800 md:sticky top-0 z-10">
             <nav className="container mx-auto flex flex-wrap p-5 pt-12 m- md:flex-row items-center justify-center">                
-                <a 
+                {/* <a 
                     href="#about" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     onClick={() => handlePageChange('About')}>
                     Services
@@ -25,7 +25,7 @@ export default function Navbar({ handlePageChange }) {
                             Sample
                         </li>
                     </ul> 
-                </a>
+                </a> */}
 
                 {/* Services */}
                 <a 
