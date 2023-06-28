@@ -1,33 +1,19 @@
 import React from 'react';
-import HLogo from '../../assets/HLogo.png';
-import { BiChevronDown } from "react-icons/bi"; 
+import GLogo from '../../assets/Logo.jpg';
+// import { BiChevronDown } from "react-icons/bi"; 
 
 export default function Navbar({ handlePageChange }) {
     return (
         <header className="bg-gray-800 md:sticky top-0 z-10">
             <nav className="container mx-auto flex flex-wrap p-5 pt-12 m- md:flex-row items-center justify-center">                
-                <a 
-                    href="#about" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-                    onClick={() => handlePageChange('About')}>
-                    Services
-                    <BiChevronDown size ={20}/>
-                     <ul className="bg-white mt-2">
-                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
-                            Sample
-                        </li>
-                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
-                            Sample
-                        </li>
-                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
-                            Sample
-                        </li>
-                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
-                            Sample
-                        </li>
-                    </ul> 
-                </a>
-
+                
                 {/* Services */}
+                <a 
+                    href="#About" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+                    
+                    onClick={() => handlePageChange('TreeRemoval')}>
+                    Home
+                </a>
                 <a 
                     href="#TreeRemoval" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     
@@ -62,7 +48,7 @@ export default function Navbar({ handlePageChange }) {
                     href="#Contact"
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     onClick={() => handlePageChange('Contact')}>
-                    Contact Us!
+                    Contact
                     {/* <ArrowRightIcon className="w-4 h-4 ml-1" /> */}
                 </a>
             </nav>
