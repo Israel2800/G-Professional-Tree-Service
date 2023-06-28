@@ -11,7 +11,7 @@ export default function Navbar({ handlePageChange }) {
                 <a 
                     href="#About" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     
-                    onClick={() => handlePageChange('TreeRemoval')}>
+                    onClick={() => handlePageChange('About')}>
                     Home
                 </a>
                 <a 

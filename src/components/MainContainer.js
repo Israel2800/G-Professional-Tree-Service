@@ -11,7 +11,7 @@ import Navbar from "./pages/Navbar";
 // import Services from "pages/Services";
 
 export default function MainContainer() {
-    const [currentPage, setCurrentPage] = useState('');
+    const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
         if (currentPage === 'About') {
@@ -47,6 +47,7 @@ export default function MainContainer() {
 
                     {/* Here we are calling the renderPage method which will return a component  */}
                     {renderPage()}
+                    
                     {/* <Footer /> */}
                 </div>
             </Router>
