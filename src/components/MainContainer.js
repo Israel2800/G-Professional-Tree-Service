@@ -17,9 +17,9 @@ export default function MainContainer() {
         if (currentPage === 'About') {
             return <About />;
         }
-        // if (currentPage ==='Contact') {
-        //     return <Contact />;
-        // }
+        if (currentPage ==='Contact') {
+            return <Contact />;
+        }
         // if (currentPage === 'StumpRemoval') {
         //     return <StumpRemoval />;
         // }
