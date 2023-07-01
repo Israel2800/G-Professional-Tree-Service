@@ -25,7 +25,7 @@ export default function About({ handlePageChange }) {
               </p>
             </h1>
             <p className="mb-8 leading-relaxed text-justify">
-              Hector's Tree Service provides reliable tree care services in La Vergne, Brentwood, Smyrna & 
+              G Professional Tree Service provides reliable tree care services in La Vergne, Brentwood, Smyrna & 
               Mt. Juliet, TN
             </p>
 
