@@ -20,18 +20,18 @@ export default function MainContainer() {
         if (currentPage ==='Contact') {
             return <Contact />;
         }
-        // if (currentPage === 'StumpRemoval') {
-        //     return <StumpRemoval />;
-        // }
-        // if (currentPage === 'TreeCare') {
-        //     return <TreeCare />;
-        // }
-        // if (currentPage === 'TreeRemoval') {
-        //     return <TreeRemoval />;
-        // }
-        // if (currentPage === 'Trimming') {
-        //     return <Trimming />;
-        // }
+        if (currentPage === 'StumpRemoval') {
+            return <StumpRemoval />;
+        }
+        if (currentPage === 'TreeCare') {
+            return <TreeCare />;
+        }
+        if (currentPage === 'TreeRemoval') {
+            return <TreeRemoval />;
+        }
+        if (currentPage === 'Trimming') {
+            return <Trimming />;
+        }
     };
     
     // Will display de current page, still need to make the renderPage return
