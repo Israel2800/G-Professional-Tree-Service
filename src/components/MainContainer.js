@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import About from './pages/About';
 import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
-// import Footer from "./pages/Footer";
+import Footer from "./pages/Footer";
 // import StumpRemoval from "./pages/services/StumpRemoval";
 // import TreeCare from "./pages/services/TreeCare";
 // import TreeRemoval from "./pages/services/TreeRemoval";
@@ -48,7 +48,7 @@ export default function MainContainer() {
                     {/* Here we are calling the renderPage method which will return a component  */}
                     {renderPage()}
                     
-                    {/* <Footer /> */}
+                    <Footer />
                 </div>
             </Router>
         </main>

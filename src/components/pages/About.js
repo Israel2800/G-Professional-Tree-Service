@@ -107,7 +107,7 @@ export default function About({ handlePageChange }) {
               TREE REMOVAL
             </p> 
             <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
-              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+              Our tree removal services are unmatched in quality and expertise. We excel at safely and efficiently removing trees, ensuring no damage to your property. Trust us for the best tree removal solutions that enhance the safety and beauty of your surroundings.            
             </p>
           </div>
           <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
@@ -118,7 +118,7 @@ export default function About({ handlePageChange }) {
               TREE TRIMMING
             </p> 
             <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
-              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+              Experience exceptional tree trimming services from our expert team. We skillfully trim and shape trees, promoting their health and aesthetic appeal. With our top-notch equipment and expertise, we deliver the best tree trimming solutions to enhance the beauty and vitality of your trees.
             </p>
           </div>
           <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
@@ -129,7 +129,7 @@ export default function About({ handlePageChange }) {
               STUMP REMOVAL
             </p> 
             <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
-              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+              Say goodbye to unsightly tree stumps with our premier stump removal services. Our skilled team utilizes advanced techniques and equipment to safely and efficiently eliminate stumps, restoring the beauty and functionality of your outdoor space. Experience the best stump removal solutions with us.
             </p>
           </div>
           <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
@@ -140,7 +140,7 @@ export default function About({ handlePageChange }) {
               TREE CARE
             </p> 
             <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
-              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+              Nurture the health and vitality of your trees with our comprehensive tree care services. Our expert arborists provide tailored solutions including pruning, fertilization, and disease management, ensuring your trees thrive for years to come. Trust the best in tree care.
             </p>
           </div>
         </div>
