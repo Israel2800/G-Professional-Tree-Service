@@ -32,7 +32,7 @@ export default function Navbar({ handlePageChange }) {
 
         {/* Dropdown Menu */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-16 right-0 bg-white w-full py-4 px-2">
+          <div className="md:hidden absolute  right-0 bg-white w-full py-4 px-2">
             <a
               href="#About"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
