@@ -89,49 +89,49 @@ export default function Navbar({ handlePageChange }) {
         <div className="hidden md:flex md:items-center justify-center text-black">
           <a
             href="#About"
-            className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('About')}
           >
             Home
           </a>
           <a
             href="#TreeRemoval"
-            className=" hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('TreeRemoval')}
           >
             Tree Removal
           </a>
           <a
             href="#StumpRemoval"
-            className=" hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('StumpRemoval')}
           >
             Stump Removal
           </a>
           <a
             href="#TreeTrimming"
-            className=" hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('TreeTrimming')}
           >
             Tree Trimming
           </a>
           <a
             href="#TreeCare"
-            className=" hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('TreeCare')}
           >
             Tree Care
           </a>
           <a
             href="#EmergencyCare"
-            className=" hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('EmergencyCare')}
           >
             Emergency Care
           </a>
           <a
             href="#Contact"
-            className=" hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('Contact')}
           >
             Contact

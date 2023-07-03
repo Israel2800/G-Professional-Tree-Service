@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import About from './pages/About';
-// import Contact from "./pages/Contact";
+import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
 // import Footer from "./pages/Footer";
 // import StumpRemoval from "./pages/services/StumpRemoval";
@@ -17,9 +17,9 @@ export default function MainContainer() {
         if (currentPage === 'About') {
             return <About />;
         }
-        // if (currentPage ==='Contact') {
-        //     return <Contact />;
-        // }
+        if (currentPage ==='Contact') {
+            return <Contact />;
+        }
         // if (currentPage === 'StumpRemoval') {
         //     return <StumpRemoval />;
         // }
