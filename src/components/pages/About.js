@@ -1,24 +1,26 @@
 import React from 'react';
-import HLogo from "../../assets/Logo.jpg";
+import GLogo from "../../assets/Logo.jpg";
 import tree from "../../assets/images/tree-trimming.jpg";
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+
 import Testimonials from './Testimonials';
 // import Services from "./Services";
 import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
+import bgImg from "../../assets/gallery/port.png"
 
 export default function About({ handlePageChange }) {
     return(
-      <section id="about">
+      <section id="about" className='style'>
         <div className="mx-auto flex px-10 py-20 md:flex-row flex-col items-center bg-mainImage bg-cover bg-fixed bg-center bg-no-repeat bg-opacity-75 hover:opacity-100">
-          {/* <img className=""/> */}
           <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center ">
-            <img
+            {/* <img
               className="object-cover object-center rounded-lg mb-8 leading-relaxed text-justify"
               alt="hero"
-              src={HLogo}
+              src={GLogo}
               style={{width:"200px", height:"200px"}}
-            />
+            /> */}
             <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-white">
               <p className="lg:inline-block">
                 YOUR TREES DESERVE A PROFESSIONAL CARE
