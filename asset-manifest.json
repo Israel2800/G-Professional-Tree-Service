@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/G-Professional-Tree-Service/static/css/main.248dc378.css",
-    "main.js": "/G-Professional-Tree-Service/static/js/main.cd0851a1.js",
+    "main.css": "/G-Professional-Tree-Service/static/css/main.846b8f6c.css",
+    "main.js": "/G-Professional-Tree-Service/static/js/main.3dbcdef7.js",
     "static/js/787.b2acb343.chunk.js": "/G-Professional-Tree-Service/static/js/787.b2acb343.chunk.js",
     "static/media/port.png": "/G-Professional-Tree-Service/static/media/port.9882410fe6f5499407ee.png",
     "static/media/tree-trimming.jpg": "/G-Professional-Tree-Service/static/media/tree-trimming.edc841f0e5ceb04af856.jpg",
@@ -10,12 +10,12 @@
     "static/media/Logo.jpg": "/G-Professional-Tree-Service/static/media/Logo.778708c2275add2a6877.jpg",
     "static/media/tree-care.jpg": "/G-Professional-Tree-Service/static/media/tree-care.9d6aed8bb3b3b8d0d090.jpg",
     "index.html": "/G-Professional-Tree-Service/index.html",
-    "main.248dc378.css.map": "/G-Professional-Tree-Service/static/css/main.248dc378.css.map",
-    "main.cd0851a1.js.map": "/G-Professional-Tree-Service/static/js/main.cd0851a1.js.map",
+    "main.846b8f6c.css.map": "/G-Professional-Tree-Service/static/css/main.846b8f6c.css.map",
+    "main.3dbcdef7.js.map": "/G-Professional-Tree-Service/static/js/main.3dbcdef7.js.map",
     "787.b2acb343.chunk.js.map": "/G-Professional-Tree-Service/static/js/787.b2acb343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.248dc378.css",
-    "static/js/main.cd0851a1.js"
+    "static/css/main.846b8f6c.css",
+    "static/js/main.3dbcdef7.js"
   ]
 }
