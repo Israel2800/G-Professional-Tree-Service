@@ -9,6 +9,8 @@ import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
 import bgImg from "../../assets/gallery/port.png"
+import { FaShieldAlt, FaTools, FaComments } from 'react-icons/fa';
+
 
 export default function About({ handlePageChange }) {
     return(
@@ -43,59 +45,76 @@ export default function About({ handlePageChange }) {
 
         </div> */}
 
-  <div
-    className="mx-auto flex px-10 py-20 md:py-0 sm:flex-row flex-col items-center bg-mainImage bg-cover bg-fixed bg-center bg-no-repeat h-screen"
-    style={{ backgroundImage: `url(${bgImg})`, opacity: 0.8 }}
-  >
-  
-  <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
-    {/* <img
-      className="object-cover object-center rounded-lg mb-8 leading-relaxed text-justify"
-      alt="hero"
-      src={GLogo}
-      style={{width:"200px", height:"200px"}}
-    /> */}
-    <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-white">
-      <p className="lg:inline-block">
-        YOUR TREES DESERVE A PROFESSIONAL CARE
-      </p>
-    </h1>
-    <p className="mb-8 leading-relaxed text-justify text-white">
-      G Professional Tree Service provides reliable tree care services in La Vergne, Brentwood, Smyrna & 
-      Mt. Juliet, TN
-    </p>
-
-    <div className="flex justify-center">
-      <a
-        href="#contact"
-        className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-        onClick={() => handlePageChange('Contact')}
+      <div
+        className="mx-auto flex px-10 py-20 md:py-0 sm:flex-row flex-col items-center bg-mainImage bg-cover bg-fixed bg-center bg-no-repeat h-screen"
+        style={{ backgroundImage: `url(${bgImg})`, opacity: 0.8 }}
       >
-        Contact Me
-      </a>
-    </div>
-  </div>
-</div>
-
-
-        
-        {/* Icon section */}
-        <div className="flex px-10 pt-20 flex-row bg-white justify-center">
-          {/* Change to image */}
-          <GiTreeBranch className="w-12 h-full inline-block text-green-600"/> 
-        </div>
-        {/* Second section */}
-        <div className="flex px-10 pt-5 pb-20 md:flex-row flex-col items-center bg-white">
-          <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
-            <p className='text-green-600 text-3xl font-serif'>
-              We will maintain your space clean and beautiful
-            </p> 
-            <p className='text-green-800 text-xl font-serif mt-6'>
-              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
-              To provide your tree with top-notch care, enlist a reputable tree care company. In La Vergne, Brentwood, Smyrna & Mt. Juliet, TN and surrounding areas, G Professional Tree Service is here to help. We'll give every tree the attentive services that it deserves.
+  
+        <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
+          {/* <img
+            className="object-cover object-center rounded-lg mb-8 leading-relaxed text-justify"
+            alt="hero"
+            src={GLogo}
+            style={{width:"200px", height:"200px"}}
+          /> */}
+          <h1 className="sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <p className="lg:inline-block">
+              YOUR TREES DESERVE A PROFESSIONAL CARE
             </p>
+          </h1>
+          <p className="mb-8 leading-relaxed text-justify text-white">
+            G Professional Tree Service provides reliable tree care services in La Vergne, Brentwood, Smyrna & 
+            Mt. Juliet, TN
+          </p>
+
+          <div className="flex justify-center">
+            <a
+              href="#contact"
+              className="inline-flex text-white bg-green-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+              onClick={() => handlePageChange('Contact')}
+            >
+              Contact Me
+            </a>
           </div>
         </div>
+      </div>      
+        
+        {/* Second section */}
+
+        <section id="About" className="bg-white md:p-10 py-6 px-2">
+      <div className="flex flex-col items-center bg-white w-full">
+        <GiTreeBranch className="w-12 h-full inline-block text-green-600" />
+        <h5 className="text-green-600 text-center text-2xl font-serif mt-2">We will maintain your space clean and beautiful</h5>
+      </div>
+      <div className="flex flex-col md:flex-row pt-6">
+        <div className="w-full md:w-1/2 px-10">
+          <h2 className="text-green-600 text-3xl font-serif">Our Story</h2>
+          <p className="text-green-800  font-serif py-4">
+            Every tree that you own provides your property with beautiful scenery, shade, and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for? To provide your tree with top-notch care, enlist a reputable tree care company. In La Vergne, Brentwood, Smyrna & Mt. Juliet, TN, and surrounding areas, G Professional Tree Service is here to help. We'll give every tree the attentive services that it deserves.
+          </p>
+        </div>
+        <div className="w-full md:w-1/2 px-10">
+          <h2 className="text-green-600 text-3xl font-serif">Our Values</h2>
+          <p className="text-green-800  font-serif py-4">
+            Values are important for our company because they guide our decisions and actions, ensuring that we deliver the best possible service to our clients.
+          </p>
+          <ul className="list-none">
+            <li className="flex items-center mb-3">
+              <FaShieldAlt className="w-6 h-6 mr-2 text-green-800" />
+              <h4 className="m-0 text-black">Safety</h4>
+            </li>
+            <li className="flex items-center mb-3">
+              <FaTools className="w-6 h-6 mr-2 text-green-800" />
+              <h4 className="m-0 text-black">Quality</h4>
+            </li>
+            <li className="flex items-center">
+              <FaComments className="w-6 h-6 mr-2 text-green-800" />
+              <h4 className="m-0 text-black">Communication</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
         
         {/* Third section */}
         <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600 ">          
