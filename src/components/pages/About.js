@@ -10,6 +10,8 @@ import Testimonials from './Testimonials';
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
 import bgImg from "../../assets/gallery/port.png"
+import sectionImg from "../../assets/images/tree-trimming3.jpg"
+import woodWallpaper from "../../assets/images/woodWallpaper.jpg"
 import { FaHardHat, FaShieldAlt, FaTools, FaComments } from 'react-icons/fa';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +22,7 @@ export default function About({ handlePageChange }) {
       
       {/* Section 1 */}
       <section
-        className="flex items-center justify-center"
+        className="flex items-center justify-center text-end"
         style={{
           backgroundImage: `linear-gradient(rgba(76, 175, 80, 0.2), rgba(76, 175, 80, 0.4)), url(${bgImg})`,
           backgroundSize: 'cover',
@@ -61,7 +63,7 @@ export default function About({ handlePageChange }) {
           <div className="w-full md:w-1/2 pt-4 md:px-8">
             <h2 className="text-green-600 text-3xl font-serif text-center md:text-end">Our Mission</h2>
             <p className="text-green-800  font-serif py-4 md:text-end">
-              Every tree that you own provides your property with beautiful scenery, shade, and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for? To provide your tree with top-notch care, enlist a reputable tree care company. In La Vergne, Brentwood, Smyrna & Mt. Juliet, TN, and surrounding areas, G Professional Tree Service is here to help. We'll give every tree the attentive services that it deserves.
+              Every tree that you own provides your property with beautiful scenery, shade, and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for? To provide your tree with top-notch care, enlist a reputable tree care company. In La Vergne, Brentwood, Smyrna, Nashville & Mt. Juliet, TN, and surrounding areas, G Professional Tree Service is here to help. We'll give every tree the attentive services that it deserves.
             </p>
           </div>
           <div className="w-full md:w-1/2 pt-4 md:px-8">
@@ -88,28 +90,31 @@ export default function About({ handlePageChange }) {
       </section>
         
       {/* Section 3 */}
-      <section id='services' className="bg-gray-200 py-8  flex flex-col justify-center">
-            <h2 className="text-3xl font-bold text-center text-green-700">Our Services</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
-              {services.map((service, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-lg">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-48 object-cover rounded-t-lg"
-                  />
-                  <div className="p-4">
-                    <h3 className="text-center text-lg font-semibold mb-2 text-green-600">{service.title}</h3>
-                    <a
-                      href={service.buttonLink}
-                      className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"
-                    >
-                      {service.buttonText}
-                    </a>
-                  </div>
+      <section id='services' className="bg-gray-200 flex flex-col justify-center relative">
+        <img src={woodWallpaper} alt="Wood Wallpaper" className="w-cover" />
+        <div className='absolute bg-gray-900 bg-opacity-60 top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center'>
+          <h2 className="text-3xl font-bold text-center text-green-700">Our Services</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
+            {services.map((service, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-lg">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-48 object-cover rounded-t-lg"
+                />
+                <div className="p-4">
+                  <h3 className="text-center text-lg font-semibold mb-2 text-green-600">{service.title}</h3>
+                  <a
+                    href={service.buttonLink}
+                    className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"
+                  >
+                    {service.buttonText}
+                  </a>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* Section 4 */}
@@ -118,11 +123,20 @@ export default function About({ handlePageChange }) {
       </div>
 
       {/* Section 5 */}
-      <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
-        <p className="text-4xl text-center text-green-600">
+      <section
+        className="flex items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(rgba(76, 175, 80, 0.3), rgba(76, 175, 80, 0.3)), url(${sectionImg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: "no-repeat",
+          height: '50vh',
+        }}
+      >
+        <p className="text-1xl md:text-4xl text-center font-bold text-white">
           ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA, NASHVILLE & MT. JULIET, TN
         </p>
-      </div>
+      </section>
 
       {/* Section 6 */}
       <section className="py-5 mx-auto">

@@ -16,10 +16,10 @@ export default function Testimonials(){
       };
 
     return(
-        <section id="Testimonials" className="py-8 bg-white">
+        <section id="Testimonials" className="py-12 bg-white">
             <div className="container px-8 mx-auto">
             <h2 className="text-center text-3xl font-bold text-green-700">Testimonials</h2>                
-            <h2 className="text-center pb-5 text-green-700 py-2">What our clients are saying from Google, HomeAdvisor, Angi, And Much More!</h2>
+            <h2 className="text-center text-1xl pb-5 text-green-700 py-2">What our clients are saying from Google, HomeAdvisor, Angi, And Much More!</h2>
                 <Slider {...settings} className="flex justify-center">
                 {testimonials.map((testimonial) => (
                     <div key={testimonial.id} className="w-3/4 p-2 md:p-4 flex justify-center">
