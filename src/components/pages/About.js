@@ -10,7 +10,7 @@ import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
 import bgImg from "../../assets/gallery/port.png"
-import { FaShieldAlt, FaTools, FaComments } from 'react-icons/fa';
+import { FaHardHat, FaShieldAlt, FaTools, FaComments } from 'react-icons/fa';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -233,7 +233,7 @@ export default function About({ handlePageChange }) {
         </div>
 
         {/* Sixth Section */}
-        <div className="flex px-10 py-20 flex-wrap bg-emerald-700 justify-center w-full bg-section6 bg-cover bg-fixed bg-center bg-no-repeat opacity-70 hover:opacity-80">
+        {/* <div className="flex px-10 py-20 flex-wrap bg-emerald-700 justify-center w-full bg-section6 bg-cover bg-fixed bg-center bg-no-repeat opacity-70 hover:opacity-80">
           <div className=' my-2'>
             <p className="text-6xl text-center mb-5">
               What do we offer to you?
@@ -268,7 +268,30 @@ export default function About({ handlePageChange }) {
                 </p>
               </div>
           </div>
+        </div> */}
+
+        {/* TEST SECTION */}
+        <div className="container py-5 mx-auto">
+        <h2 className="text-center mt-5 text-3xl font-bold">Why Choose Us</h2>
+        <div className="flex flex-wrap justify-center mt-5 mb-4">
+          <div className="w-full md:w-1/3 text-center mb-4">
+            <FaHardHat size={50} className="mb-4 text-white" />
+            <h4 className="text-xl font-bold">Experienced</h4>
+            <p>Our team has years of experience in the construction industry.</p>
+          </div>
+          <div className="w-full md:w-1/3 text-center mb-4">
+            <FaTools size={50} className="mb-4 text-white" />
+            <h4 className="text-xl font-bold">Quality Work</h4>
+            <p>We take pride in delivering high-quality workmanship.</p>
+          </div>
+          <div className="w-full md:w-1/3 text-center mb-4">
+            <FaShieldAlt size={50} className="mb-4 text-white" />
+            <h4 className="text-xl font-bold">Safe and Secure</h4>
+            <p>We prioritize safety and security on every job site.</p>
+          </div>
         </div>
+      </div>
+
         
         {/* Section 7 */}
         <div className="flex px-10 pt-20 flex-row bg-white justify-center">
