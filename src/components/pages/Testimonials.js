@@ -39,6 +39,14 @@ export default function Testimonials(){
                 ))}
                 </Slider>
             </div>
-    </section>
+            <style jsx>{`
+                .slick-next:before {
+                color: #17803d;
+                }
+                .slick-prev:before {
+                    color: #17803d;
+                    }
+            `}</style>
+        </section>
     );
 }
