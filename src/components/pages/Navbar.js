@@ -10,7 +10,7 @@ export default function Navbar({ handlePageChange }) {
   };
 
   return (
-    <Navbar expand="md" fixed="top" className="md:sticky top-0 z-10 bg-[#f3f8fe] md:flex  md:flex-row items-center justify-around">
+    <div expand="md" fixed="top" className="md:sticky top-0 z-10 bg-[#f3f8fe] md:flex  md:flex-row items-center justify-around">
       {/* Logo */}
       <div className="flex items-center justify-center md:justify-start md:px-12 md:w-1/2 p-4">
         <img
@@ -139,6 +139,6 @@ export default function Navbar({ handlePageChange }) {
           </a>
         </div>
       </div>
-    </Navbar>
+    </div>
   );
 }
