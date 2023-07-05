@@ -1,24 +1,14 @@
 import React from 'react';
-// import GLogo from "../../assets/Logo.jpg";
-
-// import tree from "../../assets/images/tree-trimming.jpg";
-// import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import  { Button } from 'react-bootstrap';
 import Testimonials from './Testimonials';
 import Gallery from './Gallery';
-// import Services from "./Services";
-// import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
-import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
+// import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
-import { images } from '../../data';
 import bgImg from "../../assets/gallery/port.png"
 import sectionImg from "../../assets/images/tree-trimming3.jpg"
 import woodWallpaper from "../../assets/images/woodWallpaper.jpg"
 import { FaHardHat, FaShieldAlt, FaTools, FaComments, FaTree } from 'react-icons/fa';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBadgeCheck } from '@fortawesome/free-solid-svg-icons';
 
-import { faHouseCircleCheck } from '@fortawesome/free-solid-svg-icons';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -104,8 +94,8 @@ export default function About({ handlePageChange }) {
             <h2 className="text-3xl font-bold text-center text-white">Our Services</h2>
             <h2 className="text-1xl text-center text-white p-4">We provide services that set high standards for quality, reliability, durability and value for money</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:p-10 p-4">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-lg">
+            {services.map((service) => (
+              <div key={service.title} className="bg-white rounded-lg shadow-lg">
                 <img
                   src={service.image}
                   alt={service.title}

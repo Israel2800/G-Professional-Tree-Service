@@ -41,13 +41,13 @@ export default function Footer() {
             <p className="font-bold">&copy; 2023 G Professional Tree Service. All rights reserved.</p>
           </div>
           <div className="order-2 lg:order-3 flex justify-center items-center">
-            <a href="#" className="mx-4">
+            <a href="https://g.page/r/CemsM1zCgxsCEAI/review" className="mx-4">
               <FontAwesomeIcon icon={faFacebook} size="lg" />
             </a>
-            <a href="#" className="mx-4">
+            <a href="https://g.page/r/CemsM1zCgxsCEAI/review" className="mx-4">
               <FontAwesomeIcon icon={faInstagram} size="lg" />
             </a>
-            <a href="#" className="mx-4">
+            <a href="https://g.page/r/CemsM1zCgxsCEAI/review" className="mx-4">
               <FontAwesomeIcon icon={faGoogle} size="lg" />
             </a>
           </div>

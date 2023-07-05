@@ -1,5 +1,4 @@
 import React from "react";
-import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { testimonials } from "../../data";
 import { FaQuoteLeft, FaStar } from 'react-icons/fa';
 import Slider from 'react-slick';

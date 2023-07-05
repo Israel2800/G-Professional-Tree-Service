@@ -1,5 +1,5 @@
 import img1 from "./assets/images/stump-removal.jpg";
-import img2 from "./assets/images/tree-care.jpg";
+// import img2 from "./assets/images/tree-care.jpg";
 import img3 from "./assets/images/tree-removal.jpg";
 import img4 from "./assets/images/tree-trimming.jpg";
 import img5 from "./assets/images/tree-trimming3.jpg";
