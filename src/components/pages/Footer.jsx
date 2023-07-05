@@ -29,13 +29,13 @@ export default function Footer() {
             <p className="mb-2">
               Email us to:{' '}
               <a href="#Footer" onClick={handleEmail} className="inline-flex items-center">
-                dady281100@gmail.com <FaEnvelope className="mx-2" />
+              gprofessionaltreeservice77@gmail.com <FaEnvelope className="mx-2" />
               </a>
             </p>
             <p className="mb-2">
               Call us to:{' '}
               <a href="#Footer" onClick={handleCall} className="inline-flex items-center">
-                +1 615 401 0212 <FaPhone className="mx-2" />
+              (615) 894-5554 <FaPhone className="mx-2" />
               </a>
             </p>
             <p className="font-bold">&copy; 2023 G Professional Tree Service. All rights reserved.</p>

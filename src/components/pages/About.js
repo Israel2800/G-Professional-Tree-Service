@@ -197,20 +197,19 @@ export default function About({ handlePageChange }) {
         </div>
 
         {/* Section 8 */}
-        <div className="flex px-10  flex-row bg-white justify-center">
-          {/* Change to image */}
+        {/* <div className="flex px-10  flex-row bg-white justify-center">
           <GiTreeBranch className="w-12 h-full inline-block text-green-600"/> 
-        </div>
+        </div> */}
         
         {/* Section 9 */}
-        <div className="flex px-10 pt-8 pb-14 md:flex-row flex-col bg-white justify-center">
+        {/* <div className="flex px-10 pt-8 pb-14 md:flex-row flex-col bg-white justify-center">
           <p className="px-4 text-4xl sm:w-1/2 sm:text-right text-center text-green-600">
             ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
           </p>
           <p className="px-4 sm:pt-0 pt-8 text-4xl sm:w-1/2 sm:text-left text-center text-green-600">
             The second part of the text!
           </p>
-        </div>
+        </div> */}
        
       </section>
     );
