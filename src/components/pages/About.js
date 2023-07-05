@@ -89,7 +89,7 @@ export default function About({ handlePageChange }) {
         
       {/* Section 3 */}
       <section id='services' className="bg-gray-200 py-8  flex flex-col justify-center">
-            <h2 className="text-3xl font-bold text-center text-black">Our Services</h2>
+            <h2 className="text-3xl font-bold text-center text-green-700">Our Services</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
               {services.map((service, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-lg">
