@@ -5,11 +5,11 @@ import Glogo from '../../assets/Logo.jpg';
 
 export default function Footer() {
   const handleCall = () => {
-    window.location.href = 'tel:+16154010212';
+    window.location.href = 'tel:+16158945554';
   };
 
   const handleEmail = () => {
-    window.location.href = 'mailto:dady281100@gmail.com';
+    window.location.href = 'mailto:gprofessionaltreeservice77@gmail.com';
   };
 
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
             <p className="mb-2">
               Email us to:{' '}
               <a href="#Footer" onClick={handleEmail} className="inline-flex items-center">
-              gprofessionaltreeservice77@gmail.com <FaEnvelope className="mx-2" />
+              gprofessionaltreeservice77 <FaEnvelope className="mx-2" />
               </a>
             </p>
             <p className="mb-2">
