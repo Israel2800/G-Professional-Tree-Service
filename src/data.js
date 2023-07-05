@@ -1,18 +1,22 @@
 export const testimonials = [
   {
-      quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
-      name: "Jesse Hicks",
-      company: "Zoozle",
-  },
-  {
-      quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-      image: "https://randomuser.me/api/portraits/men/1.jpg",
-      name: "Jesse Hicks",
-      company: "Zoozle",
-  },
+    id: 1,
+    rating: 5,
+    comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    name: "John Doe",
+},
+{
+    id: 2,
+    rating: 5,
+    comment: "Nulla vel felis nec nulla tempus varius nec eu elit.",
+    name: "Jane Doe",
+},
+{
+    id: 3,
+    rating: 5,
+    comment: "Donec ullamcorper vestibulum tellus, in finibus dolor bibendum ac.",
+    name: "Bob Smith",
+},
 ]
 
 export const services = [
