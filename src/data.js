@@ -86,5 +86,15 @@ export const images = [
       title: 'Roller 5',
       imageUrl: img5,
   },
+  {
+    id: 5,
+    title: 'Roller 5',
+    imageUrl: img5,
+  },
+  {
+    id: 5,
+    title: 'Roller 5',
+    imageUrl: img5,
+  },
   
 ]

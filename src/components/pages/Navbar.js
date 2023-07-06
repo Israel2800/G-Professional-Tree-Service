@@ -99,6 +99,16 @@ export default function Navbar({ handlePageChange }) {
               Emergency Care
             </a>
             <a
+              href="#Gallery"
+              className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
+              onClick={() => {
+                handlePageChange('Gallery');
+                closeMenu();
+              }}
+            >
+              Gallery
+            </a>
+            <a
               href="#Contact"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
@@ -154,6 +164,13 @@ export default function Navbar({ handlePageChange }) {
             onClick={() => handlePageChange('EmergencyCare')}
           >
             Emergency Care
+          </a>
+          <a
+            href="#Gallery"
+            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+            onClick={() => handlePageChange('Gallery')}
+          >
+            Gallery
           </a>
           <a
             href="#Contact"
