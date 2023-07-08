@@ -197,7 +197,7 @@ export default function About({ handlePageChange }) {
           ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
         </p>
         <p className="px-4 sm:pt-0 pt-8 text-4xl sm:w-1/2 sm:text-left text-center text-green-600">
-          The second part of the text!
+          TEST TEXT The second part of the text!
         </p>
       </div> */}
       
