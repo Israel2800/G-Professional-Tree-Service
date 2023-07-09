@@ -62,12 +62,12 @@
 // }
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, useHistory } from "react-router-dom";
-import About from './pages/About';
+import { BrowserRouter as Router, Switch, Route, useHistory, Redirect  } from "react-router-dom";
+import Home from './pages/Home';
 import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
-import TreeRemoval from "./pages/services/TreeRemoval.js";
+import TreeRemoval from "./pages/services/TreeRemoval";
 import TreeTrimming from "./pages/services/TreeTrimming";
 import TreeCare from "./pages/services/TreeCare";
 import EmergencyCare from "./pages/services/EmergencyCare";
@@ -75,7 +75,7 @@ import StumpRemoval from "./pages/services/StumpRemoval";
 
 export default function MainContainer() {
 
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Home');
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
@@ -85,10 +85,12 @@ export default function MainContainer() {
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
             <Switch>
-                <Route exact path="/" render={() => <About handlePageChange={handlePageChange} />} />
+                {/* <Route exact path="/" render={() => <About handlePageChange={handlePageChange} />} /> */}
+                <Route exact path="/" component={Home} />
+                
                 <Route path="/contact" component={Contact} />
                 <Route path="/treeRemoval" component={TreeRemoval} />
-                <Route path="./stumpRemoval" component={StumpRemoval} />
+                <Route path="/stumpRemoval" component={StumpRemoval} />
                 <Route path="/treeTrimming" component={TreeTrimming} />
                 <Route path="/treeCare" component={TreeCare} />
                 <Route path="/emergencyCare" component={EmergencyCare} />

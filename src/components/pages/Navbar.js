@@ -42,7 +42,7 @@ export default function Navbar({ handlePageChange }) {
               to="/"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
-                handlePageChange('About');
+                handlePageChange('Home');
                 closeMenu();
               }}
             >
@@ -126,7 +126,7 @@ export default function Navbar({ handlePageChange }) {
           <Link
             to="/"
             className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
-            onClick={() => handlePageChange('About')}
+            onClick={() => handlePageChange('Home')}
           >
             Home
           </Link>

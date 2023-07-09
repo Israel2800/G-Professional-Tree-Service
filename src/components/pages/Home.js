@@ -18,7 +18,7 @@ import TreeRemoval from './services/TreeRemoval';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export default function About() {
+export default function Home() {
   
   // const [renderedComponent, setRenderedComponent] = useState(null);
 
@@ -129,18 +129,18 @@ export default function About() {
               />
               <div className="p-4">
                 <h3 className="text-center text-lg font-semibold mb-2 text-green-600">{service.title}</h3>
-                 <button
-                  // onClick={() => handlePageChange(service.buttonLink)}
-                  // className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full" 
-                > 
+                  {/* // onClick={() => handlePageChange(service.buttonLink)}
+                  // className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"  */}
+                 
                   <Link
                     to={service.buttonLink}
-                    className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"
-                  ></Link>
-                  {service.buttonText}
-                </button>
+                  >
+                  <button class="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full">
+                    {service.buttonText}
+                  </button>
+                  </Link>
+                </div>
               </div>
-            </div>
           ))}
         </div>
         
