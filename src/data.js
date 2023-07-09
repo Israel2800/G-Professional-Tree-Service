@@ -4,7 +4,7 @@ import img3 from "./assets/images/tree-removal.jpg";
 import img4 from "./assets/images/tree-trimming.jpg";
 import img5 from "./assets/images/tree-trimming3.jpg";
 
-import TreeRemoval from './components/pages/services/TreeRemoval'; // Update the import statement
+import TreeRemoval from "./components/pages/services/TreeRemoval";
 
 export const testimonials = [
   {
@@ -41,13 +41,13 @@ export const services = [
     description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?",
     buttonText: 'Learn More',
     // buttonLink: '.tree-removal'
-    buttonLink: "./components/pages/services/TreeRemoval"
+    buttonLink: 'TreeRemoval'
   },
   {
     title: "TREE TRIMMING",
     image: require('./assets/images/tree-trimming.jpg'),
     buttonText: 'Learn More',
-    buttonLink: "/service",
+    buttonLink: "TreeRemoval",
     description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
   },
   {

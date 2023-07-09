@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import  { Button } from 'react-bootstrap';
 import Testimonials from './Testimonials';
 import Gallery from './Gallery';
@@ -17,9 +18,27 @@ import TreeRemoval from './services/TreeRemoval';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export default function About({ handlePageChange }) {
+export default function About() {
   
+  // const [renderedComponent, setRenderedComponent] = useState(null);
 
+  // const handlePageChange = async (buttonLink) => {
+  //   try {
+  //     const component = await import(`./services/${buttonLink}`);
+  //     console.log('Imported Component:', component);
+  //     console.log('Button Link:', buttonLink);
+  //     setRenderedComponent(component.default);
+  //   } catch (error) {
+  //     console.log('Error:', error);
+  //   }
+  // };
+  
+  // const history = useHistory();
+
+  // const handlePageChange = (buttonLink) => {
+  //   history.push(`/${buttonLink}`);
+  // };
+  
 
   return(
     <section id="about" className='style'>
@@ -110,10 +129,14 @@ export default function About({ handlePageChange }) {
               />
               <div className="p-4">
                 <h3 className="text-center text-lg font-semibold mb-2 text-green-600">{service.title}</h3>
-                <button
-                  onClick={() => handlePageChange(service.buttonLink)}
-                  className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"
-                >
+                 <button
+                  // onClick={() => handlePageChange(service.buttonLink)}
+                  // className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full" 
+                > 
+                  <Link
+                    to={service.buttonLink}
+                    className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"
+                  ></Link>
                   {service.buttonText}
                 </button>
               </div>

@@ -67,7 +67,7 @@ import About from './pages/About';
 import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
-import TreeRemoval from "./pages/services/TreeRemoval";
+import TreeRemoval from "./pages/services/TreeRemoval.js";
 
 export default function MainContainer() {
 
@@ -81,7 +81,7 @@ export default function MainContainer() {
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
 
             <Switch>
-                <Route exact path="/" component={About} />
+                <Route exact path="/" render={() => <About handlePageChange={handlePageChange} />} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/treeRemoval" component={TreeRemoval} />
             </Switch>
