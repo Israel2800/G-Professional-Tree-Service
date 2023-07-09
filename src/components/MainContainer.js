@@ -68,6 +68,10 @@ import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
 import TreeRemoval from "./pages/services/TreeRemoval.js";
+import TreeTrimming from "./pages/services/TreeTrimming";
+import TreeCare from "./pages/services/TreeCare";
+import EmergencyCare from "./pages/services/EmergencyCare";
+import StumpRemoval from "./pages/services/StumpRemoval";
 
 export default function MainContainer() {
 
@@ -84,6 +88,11 @@ export default function MainContainer() {
                 <Route exact path="/" render={() => <About handlePageChange={handlePageChange} />} />
                 <Route path="/contact" component={Contact} />
                 <Route path="/treeRemoval" component={TreeRemoval} />
+                <Route path="./stumpRemoval" component={StumpRemoval} />
+                <Route path="/treeTrimming" component={TreeTrimming} />
+                <Route path="/treeCare" component={TreeCare} />
+                <Route path="/emergencyCare" component={EmergencyCare} />
+
             </Switch>
 
             <Footer />

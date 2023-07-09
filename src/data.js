@@ -47,21 +47,21 @@ export const services = [
     title: "TREE TRIMMING",
     image: require('./assets/images/tree-trimming.jpg'),
     buttonText: 'Learn More',
-    buttonLink: "TreeRemoval",
+    buttonLink: "TreeTrimming",
     description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
   },
   {
     title: "TREE CARE",
     image: require('./assets/images/tree-care.jpg'),
     buttonText: 'Learn More',
-    buttonLink: "/service",
+    buttonLink: "TreeCare",
     description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
   },
   {
     title: "EMERGENCY CARE",
     image: require('./assets/images/stump-removal.jpg'),
     buttonText: 'Learn More',
-    buttonLink: "/service",
+    buttonLink: "EmergencyCare",
     description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
   },
 ]
