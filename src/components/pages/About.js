@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import  { Button } from 'react-bootstrap';
 import Testimonials from './Testimonials';
 import Gallery from './Gallery';
@@ -9,11 +9,18 @@ import sectionImg from "../../assets/images/tree-trimming3.jpg"
 import woodWallpaper from "../../assets/images/woodWallpaper.jpg"
 import { FaHardHat, FaShieldAlt, FaTools, FaComments, FaTree } from 'react-icons/fa';
 
+import TreeRemoval from './services/TreeRemoval';
+// import TreeTrimming from './services/TreeTrimming';
+// import TreeCare from './services/TreeCare';
+// import EmergencyCare from './services/EmergencyCare';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function About({ handlePageChange }) {
+  
+
+
   return(
     <section id="about" className='style'>
     
@@ -104,7 +111,7 @@ export default function About({ handlePageChange }) {
               <div className="p-4">
                 <h3 className="text-center text-lg font-semibold mb-2 text-green-600">{service.title}</h3>
                 <button
-                  onClick={service.buttonLink}
+                  onClick={() => handlePageChange(service.buttonLink)}
                   className="bg-green-700 hover:bg-green-600 text-white py-2 px-4 rounded-full text-center block w-full"
                 >
                   {service.buttonText}
@@ -113,6 +120,7 @@ export default function About({ handlePageChange }) {
             </div>
           ))}
         </div>
+        
         </div>
       </section>
 
@@ -200,7 +208,7 @@ export default function About({ handlePageChange }) {
           TEST TEXT The second part of the text!
         </p>
       </div> */}
-      
+
     </section>
   );
     

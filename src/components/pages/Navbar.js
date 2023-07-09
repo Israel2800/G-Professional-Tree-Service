@@ -1,6 +1,6 @@
 import React from 'react';
 import GLogo from '../../assets/Logo.jpg';
-
+import { Link } from 'react-router-dom';
 
 export default function Navbar({ handlePageChange }) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -38,8 +38,8 @@ export default function Navbar({ handlePageChange }) {
         {/* Dropdown Menu */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-0 right-0 bg-white w-full h-full py-4 px-2">
-            <a
-              href="#About"
+            <Link
+              to="/"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('About');
@@ -47,9 +47,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Home
-            </a>
-            <a
-              href="#TreeRemoval"
+            </Link>
+            <Link
+              to="/treeRemoval"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('TreeRemoval');
@@ -57,9 +57,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Tree Removal
-            </a>
-            <a
-              href="#StumpRemoval"
+            </Link>
+            <Link
+              to="/stumpRemoval"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('StumpRemoval');
@@ -67,9 +67,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Stump Removal
-            </a>
-            <a
-              href="#TreeTrimming"
+            </Link>
+            <Link
+              to="/treeTrimming"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('TreeTrimming');
@@ -77,9 +77,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Tree Trimming
-            </a>
-            <a
-              href="#TreeCare"
+            </Link>
+            <Link
+              to="/treeCare"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('TreeCare');
@@ -87,9 +87,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Tree Care
-            </a>
-            <a
-              href="#EmergencyCare"
+            </Link>
+            <Link
+              to="/emergencyCare"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('EmergencyCare');
@@ -97,9 +97,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Emergency Care
-            </a>
-            <a
-              href="#Gallery"
+            </Link>
+            <Link
+              to="/gallery"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('Gallery');
@@ -107,9 +107,9 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Gallery
-            </a>
-            <a
-              href="#Contact"
+            </Link>
+            <Link
+              to="/contact"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('Contact');
@@ -117,68 +117,68 @@ export default function Navbar({ handlePageChange }) {
               }}
             >
               Contact
-            </a>
+            </Link>
           </div>
         )}
 
         {/* Normal Navigation */}
         <div className="hidden md:flex md:items-center justify-center text-black">
-          <a
-            href="#About"
+          <Link
+            to="/"
             className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('About')}
           >
             Home
-          </a>
-          <a
-            href="#TreeRemoval"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/treeRemoval"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('TreeRemoval')}
           >
             Tree Removal
-          </a>
-          <a
-            href="#StumpRemoval"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/stumpRemoval"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('StumpRemoval')}
           >
             Stump Removal
-          </a>
-          <a
-            href="#TreeTrimming"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/treeTrimming"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('TreeTrimming')}
           >
             Tree Trimming
-          </a>
-          <a
-            href="#TreeCare"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/treeCare"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('TreeCare')}
           >
             Tree Care
-          </a>
-          <a
-            href="#EmergencyCare"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/emergencyCare"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('EmergencyCare')}
           >
             Emergency Care
-          </a>
-          <a
-            href="#Gallery"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/gallery"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('Gallery')}
           >
             Gallery
-          </a>
-          <a
-            href="#Contact"
-            className=" hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
+          </Link>
+          <Link
+            to="/contact"
+            className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('Contact')}
           >
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </div>
