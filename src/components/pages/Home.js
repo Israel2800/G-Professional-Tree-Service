@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import  { Button } from 'react-bootstrap';
 import Testimonials from './Testimonials';
@@ -38,10 +38,13 @@ export default function Home() {
   // const handlePageChange = (buttonLink) => {
   //   history.push(`/${buttonLink}`);
   // };
-  
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when Home component is rendered
+  }, []);
 
   return(
-    <section id="about" className='style'>
+    <section id="home" className='style'>
     
       {/* Section 1 */}
       <section

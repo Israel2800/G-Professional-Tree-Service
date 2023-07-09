@@ -62,7 +62,7 @@
 // }
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, useHistory, Redirect  } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Routes, Route, useHistory, Redirect  } from "react-router-dom";
 import Home from './pages/Home';
 import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
@@ -75,19 +75,25 @@ import StumpRemoval from "./pages/services/StumpRemoval";
 
 export default function MainContainer() {
 
-    const [currentPage, setCurrentPage] = useState('Home');
-    const handlePageChange = (page) => setCurrentPage(page);
+    // const [currentPage, setCurrentPage] = useState('Home');
+    // const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <main className="text-indigo-100 bg-zinc-800 w-full">
         <Router>
             <div>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            {/* <Navbar currentPage={currentPage} handlePageChange={handlePageChange} /> */}
+            <Navbar />
 
             <Switch>
                 {/* <Route exact path="/" render={() => <About handlePageChange={handlePageChange} />} /> */}
+                {/* <Route exact path="/" component={Home} /> */}
+                {/* <Route exact path="/">
+                    <Redirect to="/home" />
+                </Route> */}
+
+                {/* Good one */}
                 <Route exact path="/" component={Home} />
-                
                 <Route path="/contact" component={Contact} />
                 <Route path="/treeRemoval" component={TreeRemoval} />
                 <Route path="/stumpRemoval" component={StumpRemoval} />
@@ -96,6 +102,17 @@ export default function MainContainer() {
                 <Route path="/emergencyCare" component={EmergencyCare} />
 
             </Switch>
+
+
+            {/* <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/treeRemoval" element={<TreeRemoval />} />
+                <Route path="/stumpRemoval" element={<StumpRemoval />} />
+                <Route path="/treeTrimming" element={<TreeTrimming />} />
+                <Route path="/treeCare" element={<TreeCare />} />
+                <Route path="/emergencyCare" element={<EmergencyCare />} />
+            </Routes> */}
 
             <Footer />
             </div>
