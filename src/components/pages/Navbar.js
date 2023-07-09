@@ -124,7 +124,7 @@ export default function Navbar({ handlePageChange }) {
         {/* Normal Navigation */}
         <div className="hidden md:flex md:items-center justify-center text-black">
           <Link
-            to="/"
+            to="/home"
             className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('Home')}
           >
