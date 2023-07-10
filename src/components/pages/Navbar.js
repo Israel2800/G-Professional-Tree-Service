@@ -39,7 +39,7 @@ export default function Navbar({ handlePageChange }) {
         {isMenuOpen && (
           <div className="md:hidden absolute top-0 right-0 bg-white w-full h-full py-4 px-2">
             <Link
-              to="/home"
+              to="/"
               className="block text-gray-800 hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium"
               onClick={() => {
                 handlePageChange('Home');
@@ -124,7 +124,7 @@ export default function Navbar({ handlePageChange }) {
         {/* Normal Navigation */}
         <div className="hidden md:flex md:items-center justify-center text-black">
           <Link
-            to="/home"
+            to="/"
             className="hover:text-green-700 px-3 py-2 rounded-md text-sm font-medium"
             onClick={() => handlePageChange('Home')}
           >
