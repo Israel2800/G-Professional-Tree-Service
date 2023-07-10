@@ -30,7 +30,7 @@ const StumpRemoval = () => {
                                     fontWeight: 'bold',
                                 }}
                             >
-                                Contact
+                                CONTACT US
                             </button>
                         </Link>
                     </div>
@@ -38,7 +38,7 @@ const StumpRemoval = () => {
 
             <section className="bg-gray-100 py-12 flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 p-8">
-                <h2 className="text-2xl text-green-700 font-bold mb-4 md:text-justify text-center">Great Stump Removal Service</h2>
+                <h2 className="text-2xl text-green-700 font-bold mb-4 md:text-justify text-center">GREAT STUMP REMOVAL SERVICE</h2>
                 <p className="text-black text-justify">
                     We offer professional stump removal services to help you get rid of
                     unwanted tree stumps. Our experienced team uses advanced techniques

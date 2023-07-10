@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import  { Button } from 'react-bootstrap';
-import Testimonials from './Testimonials';
+import Testimonials from './services/Testimonials';
 import Gallery from './Gallery';
 // import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
@@ -9,6 +9,7 @@ import bgImg from "../../assets/gallery/port.png"
 import sectionImg from "../../assets/images/tree-trimming3.jpg"
 import woodWallpaper from "../../assets/images/woodWallpaper.jpg"
 import { FaHardHat, FaShieldAlt, FaTools, FaComments, FaTree } from 'react-icons/fa';
+import GallerySection from './services/GallerySection';
 
 export default function Home() {
   
@@ -212,7 +213,7 @@ export default function Home() {
       </section> */}
 
       <div id="gallery"className="">
-        <Gallery />
+        <GallerySection />
       </div>
 
       {/* Section 8 */}

@@ -1,55 +1,42 @@
 import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { images } from '../../data';
+import GallerySection from './services/GallerySection';
+import { Link } from "react-router-dom";
+import stumpRemovalImage from "../../assets/gallery/port.png";
 
 export default function Gallery() {
   return (
-    <section id="Gallery" className="py-8 bg-white">
-      <div className="flex flex-col p-4 my-5">
-        <p className="w-full text-center m-2 font-bold text-3xl text-green-700">Our Latest Work</p>
-        <p className="w-full text-center mb-4 text-1xl text-green-700">
-          We provide services that set high standards for quality, reliability, durability, and value for money
-        </p>
-        {window.innerWidth <= 640 ? (
-          <Carousel
-            className="grid gap-4"
-            showArrows={true}
-            showStatus={false}
-            showThumbs={false}
-            infiniteLoop={true}
-            autoPlay={true}
-            interval={6000}
-            stopOnHover={false}
-            swipeable={true}
-            emulateTouch={true}
-            renderIndicator={() => null}
-            itemsToShow={1} // Display one item at a time on mobile devices
-          >
-            {images.map((image) => (
-              <div key={image.id}>
-                <img
-                  src={image.imageUrl}
-                  alt="Tree Service Work"
-                  className="w-full h-48 object-cover rounded-t-lg rounded-b-lg"
-                />
-              </div>
-            ))}
-          </Carousel>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:p-10 p-4">
-            {images.map((image) => (
-              <div key={image.id}>
-                <img
-                  src={image.imageUrl}
-                  alt="Tree Service Work"
-                  className="w-full h-48 object-cover rounded-t-lg rounded-b-lg"
-                />
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    </section>
+    <main>
+      <section id='services' class="w-full rounded-lg shadow-2xl overflow-hidden relative py-12">
+        <img class="absolute inset-0 h-full w-full object-cover" src={stumpRemovalImage} alt="Stump Removal Bg" />
+        <div class="absolute inset-0 bg-gray-900 bg-opacity-70"></div>
+            <div class="my-8 flex flex-col h-full items-center justify-center relative">
+                <h2 className="text-3xl font-bold text-center text-white">
+                    Our Services
+                </h2>
+                <h2 className="text-1xl text-justify md:text-center text-white p-4 mx-12">At our company, we are dedicated to delivering unmatched services that exemplify excellence in quality, reliability, durability, and exceptional value. We take pride in setting the industry standard and ensuring our customers receive the utmost value for their investment.</h2>
+                <Link to={'Contact'}>
+                    <button
+                        alt="Contact Button"
+                        className="my-2 rounded-lg"
+                        variant="primary"
+                        size="lg"
+                        style={{
+                            backgroundColor: '#fff',
+                            border: 'none',
+                            borderRadius: '0px',
+                            padding: '10px 20px',
+                            color: '#17803d',
+                            fontWeight: 'bold',
+                        }}
+                    >
+                        CONTACT US
+                    </button>
+                </Link>
+            </div>
+      </section>
+      <section id="GallerySection" className="bg-white">
+        <GallerySection />
+      </section>
+    </main>
   );
 }

@@ -64,7 +64,7 @@
 import React, { useState, useEffect } from "react";
 import { HashRouter as Router, Switch, Routes, Route, useHistory, Redirect  } from "react-router-dom";
 import Home from './components/pages/Home';
-import Contact from "./components/pages/Contact";
+import Contact from "./components/pages/services/Contact";
 import Navbar from "./components/pages/Navbar";
 import Footer from "./components/pages/Footer";
 import TreeRemoval from "./components/pages/services/TreeRemoval";
@@ -72,6 +72,7 @@ import TreeTrimming from "./components/pages/services/TreeTrimming";
 import TreeCare from "./components/pages/services/TreeCare";
 import EmergencyCare from "./components/pages/services/EmergencyCare";
 import StumpRemoval from "./components/pages/services/StumpRemoval";
+import Gallery from "./components/pages/Gallery";
 
 function App() {
 
@@ -111,6 +112,7 @@ function App() {
                             <Route path="/treeTrimming" element={<TreeTrimming />} />
                             <Route path="/treeCare" element={<TreeCare />} />
                             <Route path="/emergencyCare" element={<EmergencyCare />} />
+                            <Route path="/gallery" element={<Gallery />} />
                             <Route path="/stumpRemoval/Contact" element={<Contact />} />
                     </Routes>
 

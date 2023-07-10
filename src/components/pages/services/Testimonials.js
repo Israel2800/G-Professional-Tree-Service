@@ -1,5 +1,5 @@
 import React from "react";
-import { testimonials } from "../../data";
+import { testimonials } from "../../../data";
 import { FaQuoteLeft, FaStar } from 'react-icons/fa';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
