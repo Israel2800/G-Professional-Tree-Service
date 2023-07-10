@@ -65,7 +65,7 @@ export default function Home() {
                 color: '#17803d',
                 fontWeight: 'bold',
               }}
-              href="#Services"
+              href="#Contact"
             >
               Learn More
             </button>

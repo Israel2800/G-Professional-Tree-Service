@@ -6,26 +6,7 @@ import { Link } from "react-router-dom";
 
 const StumpRemoval = () => {
     return (
-        <section id="StumpRemoval">
-            {/* <div className="relative">
-                <img
-                src={stumpRemovalImage}
-                alt="Stump Removal"
-                className="w-full h-96"
-                />
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <Link to={'Contact'}>
-                    <button
-                        alt="Contact Button"
-                        className="cursor-pointer"
-                        style={{ width: "200px" }}
-                    >
-                        Contact
-                    </button>
-                </Link>
-                </div>
-            </div> */}
-
+        <main id="StumpRemoval">
             <section id='services' class="w-full rounded-lg shadow-2xl overflow-hidden relative py-12">
                 <img class="absolute inset-0 h-full w-full object-cover" src={stumpRemovalImage} alt="Stump Removal Bg" />
                 <div class="absolute inset-0 bg-gray-900 bg-opacity-70"></div>
@@ -37,8 +18,17 @@ const StumpRemoval = () => {
                         <Link to={'Contact'}>
                             <button
                                 alt="Contact Button"
-                                className="cursor-pointer pt-4"
-                                style={{ width: "200px" }}
+                                className="my-2 rounded-lg"
+                                variant="primary"
+                                size="lg"
+                                style={{
+                                    backgroundColor: '#fff',
+                                    border: 'none',
+                                    borderRadius: '0px',
+                                    padding: '10px 20px',
+                                    color: '#17803d',
+                                    fontWeight: 'bold',
+                                }}
                             >
                                 Contact
                             </button>
@@ -65,7 +55,7 @@ const StumpRemoval = () => {
                 />
                 </div>
             </section>
-        </section>
+        </main>
   );
 };
 

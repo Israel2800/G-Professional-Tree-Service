@@ -113,10 +113,10 @@ export default function Contact() {
            
           </div>        
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Contact Me
+            Contact Us
           </h2>
           <p className="leading-relaxed mb-4">
-            Let's work together and create the best experience on the web!
+            Contact us and receive a free and fast estimate!
           </p>
           
           <div className="relative mb-4">
