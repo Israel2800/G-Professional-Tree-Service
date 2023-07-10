@@ -9,14 +9,7 @@ import bgImg from "../../assets/gallery/port.png"
 import sectionImg from "../../assets/images/tree-trimming3.jpg"
 import woodWallpaper from "../../assets/images/woodWallpaper.jpg"
 import { FaHardHat, FaShieldAlt, FaTools, FaComments, FaTree } from 'react-icons/fa';
-
-import TreeRemoval from './services/TreeRemoval';
-// import TreeTrimming from './services/TreeTrimming';
-// import TreeCare from './services/TreeCare';
-// import EmergencyCare from './services/EmergencyCare';
-
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Contact from './Contact';
 
 export default function Home() {
   
@@ -60,22 +53,25 @@ export default function Home() {
         <div className='p-8'>
           <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">MAKING YOUR VISION BECOME A REALITY</h1>
           <p className="text-white text-xl md:text-2xl mb-6">MORE THAN 10 YEARS OF EXPERIENCE</p>
-          <Button
-            className="my-2"
-            variant="primary"
-            size="lg"
-            style={{
-              backgroundColor: '#fff',
-              border: 'none',
-              borderRadius: '0px',
-              padding: '10px 20px',
-              color: '#17803d',
-              fontWeight: 'bold',
-            }}
-            href="#Services"
-          >
-            Learn More
-          </Button>
+          <Link to={'Contact'}>
+            <button
+              className="my-2"
+              variant="primary"
+              size="lg"
+              style={{
+                backgroundColor: '#fff',
+                border: 'none',
+                borderRadius: '0px',
+                padding: '10px 20px',
+                color: '#17803d',
+                fontWeight: 'bold',
+              }}
+              href="#Services"
+            >
+              Learn More
+            </button>
+          </Link>
+         
         </div>
       </section>
 
