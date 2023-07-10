@@ -9,7 +9,6 @@ import bgImg from "../../assets/gallery/port.png"
 import sectionImg from "../../assets/images/tree-trimming3.jpg"
 import woodWallpaper from "../../assets/images/woodWallpaper.jpg"
 import { FaHardHat, FaShieldAlt, FaTools, FaComments, FaTree } from 'react-icons/fa';
-import Contact from './Contact';
 
 export default function Home() {
   

@@ -111,6 +111,7 @@ function App() {
                             <Route path="/treeTrimming" element={<TreeTrimming />} />
                             <Route path="/treeCare" element={<TreeCare />} />
                             <Route path="/emergencyCare" element={<EmergencyCare />} />
+                            <Route path="/stumpRemoval/Contact" element={<Contact />} />
                     </Routes>
 
                     <Footer />
