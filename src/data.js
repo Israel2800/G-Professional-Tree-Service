@@ -1,10 +1,11 @@
 import img1 from "./assets/images/stump-removal.jpg";
-// import img2 from "./assets/images/tree-care.jpg";
+import img2 from "./assets/images/tree-care.jpg";
 import img3 from "./assets/images/tree-removal.jpg";
 import img4 from "./assets/images/tree-trimming.jpg";
 import img5 from "./assets/images/tree-trimming3.jpg";
+import img6 from "./assets/gallery/port.png"
 
-import TreeRemoval from "./components/pages/services/TreeRemoval";
+// import TreeRemoval from "./components/pages/services/TreeRemoval";
 
 export const testimonials = [
   {
@@ -75,20 +76,20 @@ export const images = [
   {
       id: 2,
       title: 'Roller 2',
-      imageUrl: img3,
+      imageUrl: img2,
   },
 
+  {
+      id: 3,
+      title: 'Roller 3',
+      imageUrl: img3,
+  },
   {
       id: 4,
       title: 'Roller 4',
       imageUrl: img4,
   },
   {
-      id: 5,
-      title: 'Roller 5',
-      imageUrl: img5,
-  },
-  {
     id: 5,
     title: 'Roller 5',
     imageUrl: img5,
@@ -96,7 +97,7 @@ export const images = [
   {
     id: 5,
     title: 'Roller 5',
-    imageUrl: img5,
+    imageUrl: img6,
   },
   
 ]

@@ -80,7 +80,7 @@ function App() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <main className="text-indigo-100 bg-zinc-800 w-full">
+        <main className="text-indigo-100 bg-[#f3f8fe] w-full">
             <Router>
                 <div>
                     <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
@@ -113,7 +113,12 @@ function App() {
                             <Route path="/treeCare" element={<TreeCare />} />
                             <Route path="/emergencyCare" element={<EmergencyCare />} />
                             <Route path="/gallery" element={<Gallery />} />
+                            <Route path="/treeRemoval/Contact" element={<Contact />} />
                             <Route path="/stumpRemoval/Contact" element={<Contact />} />
+                            <Route path="/treeTrimming/Contact" element={<Contact />} />
+                            <Route path="/treeCare/Contact" element={<Contact />} />
+                            <Route path="/emergencyCare/Contact" element={<Contact />} />
+                            <Route path="/gallery/Contact" element={<Contact />} />
                     </Routes>
 
                     <Footer />

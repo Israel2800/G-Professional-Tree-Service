@@ -77,7 +77,10 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.1261445622995!2d-86.55824302352563!3d36.041627172473255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864134d30f7f8e5%3A0x21b83c25c33ace9!2sG%20Professional%20Tree%20Service!5e0!3m2!1ses-419!2sus!4v1688363024155!5m2!1ses-419!2sus"
           />
-          <div className="bg-gray-900  md:relative md:flex md:flex-wrap py-6 rounded md:shadow-md md:w-full">
+          <div
+            id="info"
+            className="bg-gray-900 md:relative md:flex md:flex-wrap py-6 rounded md:shadow-md md:w-full md:order-last"
+          >
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -91,36 +94,43 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a href="mailto:gprofessionaltreeservice77@gmail.com" className="text-blue-500 hover:text-blue-700">
+              <a
+                href="mailto:gprofessionaltreeservice77@gmail.com"
+                className="text-blue-500 hover:text-blue-700"
+              >
                 gprofessionaltreeservice77@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <a href="tel:+16158945554" className="leading-relaxed text-blue-500 hover:text-blue-700">
+              <a
+                href="tel:+16158945554"
+                className="leading-relaxed text-blue-500 hover:text-blue-700"
+              >
                 (615) 894-5554
-              </a>            
+              </a>
             </div>
           </div>
         </div>
+
         <form
           netlify
           name="test"
           onSubmit={handleSubmit}
-          className="flex justify-center flex-col">
+          className="flex justify-center flex-col border rounded-lg shadow p-4">
           <div className="text-center mb-4">
-            <ChatIcon className=" inline-block w-12 mb-4"/>
+            <ChatIcon className="inline-block w-12 mb-4 text-gray-800"/>
            
           </div>        
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+          <h2 className="text-black sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Us
           </h2>
-          <p className="leading-relaxed mb-4">
+          <p className="leading-relaxed mb-4 text-black">
             Contact us and receive a free and fast estimate!
           </p>
           
           <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-white">
+            <label htmlFor="name" className="leading-7 text-sm text-black">
               Name
             </label>
             <input
@@ -132,7 +142,7 @@ export default function Contact() {
             />
           </div>
           <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-white">
+            <label htmlFor="email" className="leading-7 text-sm text-black">
               Email
             </label>
             <input
@@ -146,7 +156,7 @@ export default function Contact() {
           <div className="relative mb-4">
             <label
               htmlFor="message"
-              className="leading-7 text-sm text-white">
+              className="leading-7 text-sm text-black">
               Message
             </label>
             <textarea
@@ -161,7 +171,7 @@ export default function Contact() {
             className=" text-white bg-gray-800 hover:bg-gradient-to-r border-0 py-2 px-6 rounded text-lg">
             Submit
           </button>
-          <div className="mt-2 text-white text-center">
+          <div className="mt-2 text-black text-center">
             Or you can send me an email at: 
             <a href="gprofessionaltreeservice77@gmail.com" className="underline underline-offset-4 decoration-transparent hover:decoration-2 hover:decoration-sky-200"> gprofessionaltreeservice77@gmail.com</a>
           </div>
