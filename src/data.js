@@ -5,7 +5,7 @@ import img4 from "./assets/images/tree-trimming.jpg";
 import img5 from "./assets/images/tree-trimming3.jpg";
 import img6 from "./assets/gallery/port.png"
 
-// import TreeRemoval from "./components/pages/services/TreeRemoval";
+import TreeRemoval from "./components/pages/services/TreeRemoval";
 
 export const testimonials = [
   {
