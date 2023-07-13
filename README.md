@@ -1,9 +1,5 @@
 # Live Website (Currently in Progress):
 [G Professional Tree Service](https://israel2800.github.io/G-Professional-Tree-Service/)
-    Dependencie:
-    "react-router-dom": "^5.2.0"
-    DevDependencie:
-    "@types/react-router-dom": "^5.3.3",
 
 
 # Getting Started with Create React App
