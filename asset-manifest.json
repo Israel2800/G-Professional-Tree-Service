@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/G-Professional-Tree-Service/static/css/main.5600af1a.css",
-    "main.js": "/G-Professional-Tree-Service/static/js/main.5c94dbf9.js",
+    "main.css": "/G-Professional-Tree-Service/static/css/main.2c7659c9.css",
+    "main.js": "/G-Professional-Tree-Service/static/js/main.64bd0c42.js",
     "static/js/787.b2acb343.chunk.js": "/G-Professional-Tree-Service/static/js/787.b2acb343.chunk.js",
     "static/media/woodWallpaper.jpg": "/G-Professional-Tree-Service/static/media/woodWallpaper.d24fa72254cc70bb4668.jpg",
     "static/media/port.png": "/G-Professional-Tree-Service/static/media/port.9882410fe6f5499407ee.png",
@@ -16,12 +16,12 @@
     "static/media/slick.ttf": "/G-Professional-Tree-Service/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/G-Professional-Tree-Service/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/G-Professional-Tree-Service/index.html",
-    "main.5600af1a.css.map": "/G-Professional-Tree-Service/static/css/main.5600af1a.css.map",
-    "main.5c94dbf9.js.map": "/G-Professional-Tree-Service/static/js/main.5c94dbf9.js.map",
+    "main.2c7659c9.css.map": "/G-Professional-Tree-Service/static/css/main.2c7659c9.css.map",
+    "main.64bd0c42.js.map": "/G-Professional-Tree-Service/static/js/main.64bd0c42.js.map",
     "787.b2acb343.chunk.js.map": "/G-Professional-Tree-Service/static/js/787.b2acb343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5600af1a.css",
-    "static/js/main.5c94dbf9.js"
+    "static/css/main.2c7659c9.css",
+    "static/js/main.64bd0c42.js"
   ]
 }
