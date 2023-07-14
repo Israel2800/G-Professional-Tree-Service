@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Section 6 */}
-      <section className="py-5 mx-auto">
+      <section className="py-5 mx-auto bg-slate-900">
         <h2 className="text-center mt-5 text-3xl font-bold">Why Choose Us</h2>
         <div className="flex flex-wrap justify-center items-center mt-6 mb-4 mx-6">
           <div className="w-full md:w-1/3 text-center mb-8">
