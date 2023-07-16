@@ -3,7 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import  { Button } from 'react-bootstrap';
 import Testimonials from './services/Testimonials';
 import Gallery from './Gallery';
-// import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
+import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
 import bgImg from "../../assets/gallery/port.png"
 import sectionImg from "../../assets/images/tree-trimming3.jpg"
