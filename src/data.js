@@ -5,7 +5,7 @@ import img4 from "./assets/images/tree-trimming.jpg";
 import img5 from "./assets/images/tree-trimming3.jpg";
 import img6 from "./assets/gallery/port.png";
 import img7 from "./assets/gallery/home-service.jpeg";
-import img8 from "./assets/gallery/home-service2.jpeg";
+import img8 from "./assets/gallery/home-service-2.jpeg";
 
 // import TreeRemoval from "./components/pages/services/TreeRemoval";
 
