@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/G-Professional-Tree-Service/static/css/main.2c7659c9.css",
-    "main.js": "/G-Professional-Tree-Service/static/js/main.64bd0c42.js",
+    "main.css": "/G-Professional-Tree-Service/static/css/main.8c975e69.css",
+    "main.js": "/G-Professional-Tree-Service/static/js/main.e51b3273.js",
     "static/js/787.b2acb343.chunk.js": "/G-Professional-Tree-Service/static/js/787.b2acb343.chunk.js",
     "static/media/woodWallpaper.jpg": "/G-Professional-Tree-Service/static/media/woodWallpaper.d24fa72254cc70bb4668.jpg",
     "static/media/port.png": "/G-Professional-Tree-Service/static/media/port.9882410fe6f5499407ee.png",
     "static/media/tree-trimming.jpg": "/G-Professional-Tree-Service/static/media/tree-trimming.edc841f0e5ceb04af856.jpg",
     "static/media/tree-removal.jpg": "/G-Professional-Tree-Service/static/media/tree-removal.df18537a6952847dea8e.jpg",
     "static/media/stump-removal.jpg": "/G-Professional-Tree-Service/static/media/stump-removal.cd5a1e955c244bdba473.jpg",
+    "static/media/home-service-2.jpeg": "/G-Professional-Tree-Service/static/media/home-service-2.f794d94b9cc839a25504.jpeg",
+    "static/media/home-service.jpeg": "/G-Professional-Tree-Service/static/media/home-service.837f1c762095972159b4.jpeg",
     "static/media/Logo.jpg": "/G-Professional-Tree-Service/static/media/Logo.778708c2275add2a6877.jpg",
     "static/media/tree-care.jpg": "/G-Professional-Tree-Service/static/media/tree-care.9d6aed8bb3b3b8d0d090.jpg",
     "static/media/tree-trimming3.jpg": "/G-Professional-Tree-Service/static/media/tree-trimming3.eaf70c523ea0b7a9d67b.jpg",
@@ -16,12 +18,12 @@
     "static/media/slick.ttf": "/G-Professional-Tree-Service/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/G-Professional-Tree-Service/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/G-Professional-Tree-Service/index.html",
-    "main.2c7659c9.css.map": "/G-Professional-Tree-Service/static/css/main.2c7659c9.css.map",
-    "main.64bd0c42.js.map": "/G-Professional-Tree-Service/static/js/main.64bd0c42.js.map",
+    "main.8c975e69.css.map": "/G-Professional-Tree-Service/static/css/main.8c975e69.css.map",
+    "main.e51b3273.js.map": "/G-Professional-Tree-Service/static/js/main.e51b3273.js.map",
     "787.b2acb343.chunk.js.map": "/G-Professional-Tree-Service/static/js/787.b2acb343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c7659c9.css",
-    "static/js/main.64bd0c42.js"
+    "static/css/main.8c975e69.css",
+    "static/js/main.e51b3273.js"
   ]
 }
