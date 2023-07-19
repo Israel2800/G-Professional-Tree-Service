@@ -167,33 +167,7 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Section 6 */}
-      <section className="py-5 mx-auto bg-slate-900">
-        <h2 className="text-center mt-5 text-3xl font-bold">Why Choose Us</h2>
-        <div className="flex flex-wrap justify-center items-center mt-6 mb-4 mx-6">
-          <div className="w-full md:w-1/3 text-center mb-8">
-            <div className="flex justify-center">
-              <FaHardHat size={50} className="mb-4 text-white" />
-            </div>
-            <h4 className="text-xl font-bold">Experienced</h4>
-            <p>We have more than 10 years of experience in the Industry.</p>
-          </div>
-          <div className="w-full md:w-1/3 text-center mb-8">
-            <div className="flex justify-center">
-              <FaTools size={50} className="mb-4 text-white" />
-            </div>
-            <h4 className="text-xl font-bold">Quality Work</h4>
-            <p>We take pride in delivering high-quality workmanship.</p>
-          </div>
-          <div className="w-full md:w-1/3 text-center mb-8">
-            <div className="flex justify-center">
-              <FaShieldAlt size={50} className="mb-4 text-white" />
-            </div>
-            <h4 className="text-xl font-bold">Safe and Secure</h4>
-            <p>We prioritize safety and security on every job site.</p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Section 7 */}
       {/* <section id="Gallery" className="py-8 bg-white">
@@ -231,6 +205,34 @@ export default function Home() {
         </p>
       </div> */}
 
+
+      {/* Section 6 */}
+      <section className="py-5 mx-auto bg-slate-900">
+        <h2 className="text-center mt-5 text-3xl font-bold">Why Choose Us</h2>
+        <div className="flex flex-wrap justify-center items-center mt-6 mb-4 mx-6">
+          <div className="w-full md:w-1/3 text-center mb-8">
+            <div className="flex justify-center">
+              <FaHardHat size={50} className="mb-4 text-white" />
+            </div>
+            <h4 className="text-xl font-bold">Experienced</h4>
+            <p>We have more than 10 years of experience in the Industry.</p>
+          </div>
+          <div className="w-full md:w-1/3 text-center mb-8">
+            <div className="flex justify-center">
+              <FaTools size={50} className="mb-4 text-white" />
+            </div>
+            <h4 className="text-xl font-bold">Quality Work</h4>
+            <p>We take pride in delivering high-quality workmanship.</p>
+          </div>
+          <div className="w-full md:w-1/3 text-center mb-8">
+            <div className="flex justify-center">
+              <FaShieldAlt size={50} className="mb-4 text-white" />
+            </div>
+            <h4 className="text-xl font-bold">Safe and Secure</h4>
+            <p>We prioritize safety and security on every job site.</p>
+          </div>
+        </div>
+      </section>
     </section>
   );
     
