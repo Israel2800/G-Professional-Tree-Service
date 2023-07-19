@@ -51,8 +51,8 @@ export default function Home() {
         }}
       >
         <div className='p-8'>
-          <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">MAKING YOUR VISION BECOME A REALITY</h1>
-          <p className="text-white text-xl md:text-2xl mb-6">MORE THAN 10 YEARS OF EXPERIENCE</p>
+          <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">Branching Out with Excellence: Your Trusted Tree Care Experts</h1>
+          <p className="text-white text-xl md:text-2xl mb-6">MORE THAN 15 YEARS OF EXPERIENCE</p>
           <Link to={'Contact'}>
             <button
               className="my-2"
