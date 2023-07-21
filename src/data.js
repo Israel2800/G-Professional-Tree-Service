@@ -7,8 +7,6 @@ import img6 from "./assets/gallery/port.png";
 import img7 from "./assets/gallery/home-service.jpeg";
 import img8 from "./assets/gallery/home-service-2.jpeg";
 
-// import TreeRemoval from "./components/pages/services/TreeRemoval";
-
 export const testimonials = [
   {
     id: 1,
