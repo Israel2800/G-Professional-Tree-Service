@@ -21,26 +21,7 @@ function App() {
             <Router>
                 <div>
                     <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-                    {/* <Navbar /> */}
-
-                    {/* <Switch> */}
-                        {/* <Route exact path="/" render={() => <About handlePageChange={handlePageChange} />} /> */}
-                        {/* <Route exact path="/" component={Home} /> */}
-                        {/* <Route exact path="/">
-                            <Redirect to="/home" />
-                        </Route> */}
-
-                        {/* Good one */}
-                        {/* <Route exact path="/" component={Home} />
-                        <Route path="/contact" component={Contact} />
-                        <Route path="/treeRemoval" component={TreeRemoval} />
-                        <Route path="/stumpRemoval" component={StumpRemoval} />
-                        <Route path="/treeTrimming" component={TreeTrimming} />
-                        <Route path="/treeCare" component={TreeCare} />
-                        <Route path="/emergencyCare" component={EmergencyCare} /> */}
-
-                    {/* </Switch> */}
-
+                
                     <Routes>
                             <Route path="/" element={<Home />} />
                             <Route path="/contact" element={<Contact />} />
