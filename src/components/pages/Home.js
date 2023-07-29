@@ -12,25 +12,6 @@ import { FaHardHat, FaShieldAlt, FaTools, FaComments, FaTree } from 'react-icons
 import GallerySection from './services/GallerySection';
 
 export default function Home() {
-  
-  // const [renderedComponent, setRenderedComponent] = useState(null);
-
-  // const handlePageChange = async (buttonLink) => {
-  //   try {
-  //     const component = await import(`./services/${buttonLink}`);
-  //     console.log('Imported Component:', component);
-  //     console.log('Button Link:', buttonLink);
-  //     setRenderedComponent(component.default);
-  //   } catch (error) {
-  //     console.log('Error:', error);
-  //   }
-  // };
-  
-  // const history = useHistory();
-
-  // const handlePageChange = (buttonLink) => {
-  //   history.push(`/${buttonLink}`);
-  // };
 
   useEffect(() => {
     window.scrollTo(0, 0); // Scroll to the top of the page when Home component is rendered
