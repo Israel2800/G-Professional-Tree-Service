@@ -1,7 +1,6 @@
 import React from "react";
 import treeCare from "../../../assets/images/tree-care.jpg";
-// import contactButton from "../images/contact-button.png";
-// import treeCare2 from "../../../assets/images/stump-removal.jpg";
+
 import { Link } from "react-router-dom";
 
 const TreeCare = () => {
