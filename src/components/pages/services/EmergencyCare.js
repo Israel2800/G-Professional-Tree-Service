@@ -1,6 +1,5 @@
 import React from "react";
 import emergencyCare from "../../../assets/images/tree-trimming.jpg";
-// import contactButton from "../images/contact-button.png";
 import treeTrimming2 from "../../../assets/images/tree-trimming3.jpg";
 import { Link } from "react-router-dom";
 
