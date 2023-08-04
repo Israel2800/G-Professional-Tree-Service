@@ -19,6 +19,8 @@ const transporter = nodemailer.createTransport({
         user: process.env.EMAIL_ADDRESS,
         pass: process.env.EMAIL_PASSWORD,
     },
+    port: 587, // Specify the port number here
+    secure: false, // Set secure to false for STARTTLS encryption
 });
   
 
