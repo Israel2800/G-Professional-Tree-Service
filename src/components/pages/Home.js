@@ -171,7 +171,7 @@ export default function Home() {
         <GallerySection />
       </div>
 
-      {/* Section 8 */}
+      {/* Section test */}
       {/* <div className="flex px-10  flex-row bg-white justify-center">
         <GiTreeBranch className="w-12 h-full inline-block text-green-600"/> 
       </div> */}
